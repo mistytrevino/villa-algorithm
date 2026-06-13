@@ -101,10 +101,14 @@ Why: A public API endpoint that spends money on every call needs guardrails. Add
 **30. Built the Anomaly Engine: AI pattern detection over the cast.**
 Why: A person watches one couple at a time. An AI reads the whole cast at once and finds patterns no single viewer would catch. Claude scans every field, age, hometown, entry day, risk score, and returns four to six structured findings, each citing the exact data behind it so nothing is made up. First scan surfaced real ones: a Georgia hometown cluster, the day-7 bombshells holding the three highest risk scores, and both dumped islanders being original day-one cast. This is the same structured-output trick as the Risk Scorer pointed at a harder job: finding signal in noise.
 
+**31. Built the Connections tab: an Obsidian-style web of the cast (Phase 1).**
+Why: A list tells you who is coupled. A web lets you see the whole villa at once. Built a custom SVG graph, no chart library, where every islander is a node and the lines are the links: gold for couples, teal for sharing a home state. Hover a name and its connections light up while the rest fade. Minimum version first, two link types. Coming next: a real map of hometowns, then a toggle to compare against past seasons.
+
 ---
 
 ## Up next (not done yet)
-- Live Follower Tracker (web scraping + scheduled runs).
-- MCP live data feed, or Beat the Oracle (database + voting).
+- Connections Phase 2: real hometown map (add coordinates, react-simple-maps).
+- Connections Phase 3: past-season comparison toggle (needs prior-season data).
+- Beat the Oracle (database + voting), and the Vercel deploy.
 
 _(These live here only as a reminder. They move into the log above once they are actually done.)_

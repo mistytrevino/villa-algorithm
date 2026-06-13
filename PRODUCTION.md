@@ -54,10 +54,13 @@ This ties it all together. Each build step from **STEPS.md** gets mapped here to
 
 | 30 | Anomaly Engine: AI pattern detection | "I asked AI to find what I missed in the cast. It found 6 things." (Georgia cluster, day-7 risk) | Short + Long | idea |
 
+| 31 | Connections web (Obsidian-style graph) | "I turned the whole cast into a web you can explore. Hover anyone." | Short + Long | idea |
+
 ## Up next (build, then film)
 | Step | What | Content angle | Format | Status |
 |------|------|---------------|--------|--------|
-| 31 | Add a Claude skill | "I taught my AI a new skill. Here is what changed." | Short | idea |
+| 32 | Hometown map (Connections Phase 2) | "Now you can see where every islander is from on a real map." | Short | idea |
+| 33 | Past-season comparison (Phase 3) | "I compared this cast to last season. The data surprised me." | Short + Long | idea |
 
 ---
 
