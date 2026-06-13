@@ -58,6 +58,23 @@ export interface Episode {
   bombshells: string[];
 }
 
+export interface TimelineEvent {
+  id: string;
+  title: string;
+  date: string | null;
+  displayDate: string;
+  note: string;
+  key: boolean;
+  estimated: boolean;
+}
+
+// A timeline event is "aired" (unlocked) once its real date has passed.
+// Estimated/undated future events stay locked.
+export function hasAired(event: TimelineEvent, now: Date = new Date()): boolean {
+  if (event.estimated || !event.date) return false;
+  return new Date(event.date) <= now;
+}
+
 export type PredictionOutcome = "pending" | "correct" | "wrong";
 
 export interface Prediction {

@@ -49,7 +49,7 @@
     "description": "One question, five Claude models answering simultaneously. Watch five levels of AI reasoning disagree.",
     "skill": "Multi-Model API + Parallel Calls",
     "skillCategory": "multimodel",
-    "unlocked": false,
+    "unlocked": true,
     "unlockDate": "June 18",
     "week": 4,
     "route": "/fab5"

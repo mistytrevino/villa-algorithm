@@ -7,6 +7,7 @@ import { fadeUp, staggerContainer, pageEnter } from "@/lib/motion";
 import { coupleState, type Feature, type Islander } from "@/lib/types";
 import { OracleBubble } from "@/components/OracleBubble";
 import { LockedFeature } from "@/components/LockedFeature";
+import { EpisodeTimeline } from "@/components/EpisodeTimeline";
 import featuresData from "@/data/features.json";
 import islandersData from "@/data/islanders.json";
 
@@ -118,6 +119,18 @@ export default function HomePage() {
             );
           })}
         </motion.ul>
+      </section>
+
+      {/* Season timeline */}
+      <section className="pb-16">
+        <h2 className="mb-2 font-display text-3xl font-semibold text-cream">
+          The season so far
+        </h2>
+        <p className="mb-6 font-body text-sm text-muted">
+          Episodes unlock as they air. Aired episodes are confirmed. Future dates
+          are estimates until Peacock locks them in.
+        </p>
+        <EpisodeTimeline />
       </section>
 
       {/* Unlock roadmap */}

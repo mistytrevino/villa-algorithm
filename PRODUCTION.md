@@ -47,10 +47,13 @@ This ties it all together. Each build step from **STEPS.md** gets mapped here to
 | 25 | Fixed cast data, research + verify | "My AI site had fake data. Here is how I caught it." (KC missing, Sean already gone) | Short + Long | idea |
 | 26 | Avatars + the legal call + fallback | "Why I can't use the official photos, and the free trick I used instead." (then: the 'free' API that wasn't) | Short + Long | idea |
 
+| 27 | Fab 5: five models in parallel | "I asked 5 AIs the same question. Watch them agree and disagree." (+ the 404 frontier model) | Short + Long | idea |
+| 28 | Season timeline on the home page | "My site now unlocks each episode as it airs." (Casa Amor still locked) | Short | idea |
+
 ## Up next (build, then film)
 | Step | What | Content angle | Format | Status |
 |------|------|---------------|--------|--------|
-| 27 | Add a Claude skill | "I taught my AI a new skill. Here is what changed." | Short | idea |
+| 29 | Add a Claude skill | "I taught my AI a new skill. Here is what changed." | Short | idea |
 
 ---
 

@@ -89,6 +89,12 @@ Why: The seed data was a Day 1 placeholder. People were missing (KC, Bryce, the 
 **26. Added islander avatars with a graceful fallback.**
 Why: Wanted faces on the cards. Official press photos are not legal to republish on a fan site, so I built an Avatar that hotlinks each person's own public Instagram avatar through unavatar.io, and falls back to initials on a brand gradient when there is no handle or the image fails. Discovered unavatar now charges for Instagram, so the cards show clean initials for free. A good fallback means a paid or broken API never breaks your page.
 
+**27. Built the Fab 5: one question, five Claude models in parallel.**
+Why: The same prompt goes to five different Claude models at once, so the only thing that changes is the brain answering. They run in parallel, not one after another, so all five answer in about the time one would take. One model failing never sinks the rest. It is the clearest way to feel the difference between a fast small model and a slow smart one. (The frontier model Fable 5 was suspended on June 12 2026 to comply with a US government directive, so the lineup runs three Opus generations plus Sonnet and Haiku, and Fable 5 shows as a suspended tier with a link to Anthropic's statement.)
+
+**28. Added the season timeline to the home page.**
+Why: A visual of the whole season, episode one to the finale. Aired episodes are unlocked with a check, future ones stay locked, and key episodes like Casa Amor are flagged. It auto unlocks as real dates pass. Researched the real schedule and clearly marked which dates are confirmed versus estimated, because a prediction site should never fake certainty it does not have.
+
 ---
 
 ## Up next (not done yet)

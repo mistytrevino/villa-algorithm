@@ -10,6 +10,7 @@ const PRIMARY = [
   { label: "Home", href: "/" },
   { label: "Islanders", href: "/islanders" },
   { label: "Oracle", href: "/oracle" },
+  { label: "Fab 5", href: "/fab5" },
 ];
 
 export function SiteNav() {

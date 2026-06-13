@@ -1,0 +1,83 @@
+[
+  {
+    "id": "premiere",
+    "title": "Season Premiere",
+    "date": "2026-06-02",
+    "displayDate": "June 2",
+    "note": "Ten original islanders enter the villa in Fiji.",
+    "key": true,
+    "estimated": false
+  },
+  {
+    "id": "first-bombshells",
+    "title": "First Bombshells",
+    "date": "2026-06-03",
+    "displayDate": "June 3",
+    "note": "Gabriel and Kayda arrive to shake up the early couples.",
+    "key": false,
+    "estimated": false
+  },
+  {
+    "id": "sean-dumped",
+    "title": "First Dumping",
+    "date": "2026-06-07",
+    "displayDate": "June 7",
+    "note": "Sean is the first islander sent home, on day six.",
+    "key": false,
+    "estimated": false
+  },
+  {
+    "id": "bombshell-wave",
+    "title": "The Bombshell Wave",
+    "date": "2026-06-08",
+    "displayDate": "June 8",
+    "note": "Caleb, Jen, and Sol enter and turn heads across the villa.",
+    "key": false,
+    "estimated": false
+  },
+  {
+    "id": "beatriz-dumped",
+    "title": "Second Dumping",
+    "date": "2026-06-11",
+    "displayDate": "June 11",
+    "note": "Beatriz leaves the villa on day ten.",
+    "key": false,
+    "estimated": false
+  },
+  {
+    "id": "casa-amor",
+    "title": "Casa Amor",
+    "date": null,
+    "displayDate": "Est. late June",
+    "note": "The ultimate loyalty test. A second villa, a dozen new singles, every couple on the line.",
+    "key": true,
+    "estimated": true
+  },
+  {
+    "id": "movie-night",
+    "title": "Movie Night",
+    "date": null,
+    "displayDate": "Est. late June",
+    "note": "The receipts come out. The villa watches the moments nobody wanted seen.",
+    "key": true,
+    "estimated": true
+  },
+  {
+    "id": "final-recoupling",
+    "title": "Final Recoupling",
+    "date": null,
+    "displayDate": "Est. early July",
+    "note": "The last couples lock in before the public vote decides it all.",
+    "key": false,
+    "estimated": true
+  },
+  {
+    "id": "finale",
+    "title": "Grand Finale",
+    "date": null,
+    "displayDate": "Est. July 12",
+    "note": "America crowns the winners and the $100,000 is handed over.",
+    "key": true,
+    "estimated": true
+  }
+]
