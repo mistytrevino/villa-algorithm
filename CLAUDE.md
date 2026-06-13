@@ -31,3 +31,8 @@ Always reference COMPONENTS.md before building any component.
 - Data always comes from /data/ JSON files, never hardcoded in components.
 - Feature flags always checked against /data/features.json before rendering.
 - API calls to Anthropic go through /app/api/ route handlers only, never client side.
+
+## Content tracking (this is a build-in-public teaching project)
+At the START of a session, read STEPS.md to see the current state of the build (it is the running log of every step done so far). Skim PRODUCTION.md for content status and CONTENT.md for the scripts.
+
+After completing any meaningful step, append it to STEPS.md (what + why, plain record) and add a row to PRODUCTION.md (step, content angle, format, status). The why is required on every step. Deeper hook/teach/receipt scripts go in CONTENT.md. Keep all three in brand voice: plain, present tense, no em dashes.
