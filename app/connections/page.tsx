@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { pageEnter } from "@/lib/motion";
 import { ConnectionWeb } from "@/components/ConnectionWeb";
+import { HometownMap } from "@/components/HometownMap";
 
 export default function ConnectionsPage() {
   return (
@@ -26,9 +27,18 @@ export default function ConnectionsPage() {
         <ConnectionWeb />
       </div>
 
-      <p className="mt-8 font-body text-xs text-muted">
-        Coming next: a real map of where everyone is from, and a toggle to compare
-        this cast against past seasons.
+      {/* Hometown map */}
+      <h2 className="mt-16 font-display text-3xl font-semibold text-cream">
+        Where they&apos;re from
+      </h2>
+      <p className="mb-6 mt-2 font-body text-sm text-muted">
+        Every islander&apos;s hometown on the map. The clusters tell their own
+        story. Two islanders are joining from abroad.
+      </p>
+      <HometownMap />
+
+      <p className="mt-12 font-body text-xs text-muted">
+        Coming next: a toggle to compare this cast against past seasons.
       </p>
     </motion.div>
   );

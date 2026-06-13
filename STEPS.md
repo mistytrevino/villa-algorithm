@@ -104,11 +104,14 @@ Why: A person watches one couple at a time. An AI reads the whole cast at once a
 **31. Built the Connections tab: an Obsidian-style web of the cast (Phase 1).**
 Why: A list tells you who is coupled. A web lets you see the whole villa at once. Built a custom SVG graph, no chart library, where every islander is a node and the lines are the links: gold for couples, teal for sharing a home state. Hover a name and its connections light up while the rest fade. Minimum version first, two link types. Coming next: a real map of hometowns, then a toggle to compare against past seasons.
 
+**32. Connections Phase 2: a real map of where everyone is from.**
+Why: The web shows who is tied to who. The map shows where they come from, and the hometown clusters pop instantly. Added real coordinates to every islander, then drew an actual US map with d3-geo and the us-atlas data, no heavy map library. Each islander is a dot in their hometown, hover for the name. The two international islanders, Zach in the UK and Gabriel in Brazil, get an abroad callout since a US projection cannot place them. Chose d3-geo over react-simple-maps for clean React 19 support.
+
 ---
 
 ## Up next (not done yet)
-- Connections Phase 2: real hometown map (add coordinates, react-simple-maps).
 - Connections Phase 3: past-season comparison toggle (needs prior-season data).
+- A feature-request space for visitors (likely needs the database step).
 - Beat the Oracle (database + voting), and the Vercel deploy.
 
 _(These live here only as a reminder. They move into the log above once they are actually done.)_

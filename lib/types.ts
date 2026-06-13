@@ -21,6 +21,8 @@ export interface Islander {
   tiktok: string | null;
   riskScore: number | null;
   riskReasoning: string | null;
+  lat: number | null;
+  lng: number | null;
 }
 
 // UI-facing couple state, derived from status + partner.

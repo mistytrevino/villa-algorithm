@@ -59,8 +59,13 @@ This ties it all together. Each build step from **STEPS.md** gets mapped here to
 ## Up next (build, then film)
 | Step | What | Content angle | Format | Status |
 |------|------|---------------|--------|--------|
-| 32 | Hometown map (Connections Phase 2) | "Now you can see where every islander is from on a real map." | Short | idea |
+| 32 | Hometown map (Connections Phase 2) | "Now you can see where every islander is from on a real map." (the clusters) | Short | recorded? |
+
+## Up next (build, then film)
+| Step | What | Content angle | Format | Status |
+|------|------|---------------|--------|--------|
 | 33 | Past-season comparison (Phase 3) | "I compared this cast to last season. The data surprised me." | Short + Long | idea |
+| 34 | Feature-request space for visitors | "You can now request features on the site itself." | Short | idea |
 
 ---
 

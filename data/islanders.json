@@ -15,7 +15,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": 32,
-    "riskReasoning": "Aniya is coupled with KC and appears to be in a stable pairing, giving her a reasonable layer of protection heading into the recoupling."
+    "riskReasoning": "Aniya is coupled with KC and appears to be in a stable pairing, giving her a reasonable layer of protection heading into the recoupling.",
+    "lat": 33.47,
+    "lng": -84.6
   },
   {
     "id": "bryce",
@@ -33,7 +35,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": 28,
-    "riskReasoning": "Bryce is locked in with Trinity as an original couple, and their early connection gives them a solid foundation at this stage of the game."
+    "riskReasoning": "Bryce is locked in with Trinity as an original couple, and their early connection gives them a solid foundation at this stage of the game.",
+    "lat": 34.05,
+    "lng": -118.24
   },
   {
     "id": "kc",
@@ -51,7 +55,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": 35,
-    "riskReasoning": "KC is paired with Aniya but as the recoupling approaches, the arrival of newer bombshells could put pressure on connections formed early in the villa."
+    "riskReasoning": "KC is paired with Aniya but as the recoupling approaches, the arrival of newer bombshells could put pressure on connections formed early in the villa.",
+    "lat": 36.74,
+    "lng": -119.79
   },
   {
     "id": "kenzie",
@@ -69,7 +75,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": 38,
-    "riskReasoning": "Kenzie is coupled with bombshell Caleb, and because that connection is still very new, its depth has not yet been fully tested by villa dynamics."
+    "riskReasoning": "Kenzie is coupled with bombshell Caleb, and because that connection is still very new, its depth has not yet been fully tested by villa dynamics.",
+    "lat": 34.02,
+    "lng": -84.62
   },
   {
     "id": "melanie",
@@ -87,7 +95,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": 30,
-    "riskReasoning": "Melanie is paired with Corbin and their couple has had some time to grow, keeping her in a relatively comfortable position ahead of the recoupling."
+    "riskReasoning": "Melanie is paired with Corbin and their couple has had some time to grow, keeping her in a relatively comfortable position ahead of the recoupling.",
+    "lat": 34.05,
+    "lng": -118.24
   },
   {
     "id": "sincere",
@@ -105,7 +115,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": 40,
-    "riskReasoning": "Sincere is coupled with Sol, a recent bombshell arrival, so the relationship is still in an early and potentially fragile stage when drama tends to shake things up."
+    "riskReasoning": "Sincere is coupled with Sol, a recent bombshell arrival, so the relationship is still in an early and potentially fragile stage when drama tends to shake things up.",
+    "lat": 38.94,
+    "lng": -74.92
   },
   {
     "id": "trinity",
@@ -123,7 +135,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": 27,
-    "riskReasoning": "Trinity and Bryce are one of the original day-one couples, and that established history makes her one of the more secure islanders heading into the vote."
+    "riskReasoning": "Trinity and Bryce are one of the original day-one couples, and that established history makes her one of the more secure islanders heading into the vote.",
+    "lat": 37.09,
+    "lng": -76.47
   },
   {
     "id": "zach",
@@ -141,7 +155,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": 33,
-    "riskReasoning": "Zach is paired with bombshell Kayda and while they have had time to connect, his UK origin makes him a slight wildcard in terms of how other islanders perceive their bond."
+    "riskReasoning": "Zach is paired with bombshell Kayda and while they have had time to connect, his UK origin makes him a slight wildcard in terms of how other islanders perceive their bond.",
+    "lat": 52.49,
+    "lng": -1.89
   },
   {
     "id": "sean",
@@ -159,7 +175,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": null,
-    "riskReasoning": null
+    "riskReasoning": null,
+    "lat": 40.69,
+    "lng": -75.22
   },
   {
     "id": "beatriz",
@@ -177,7 +195,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": null,
-    "riskReasoning": null
+    "riskReasoning": null,
+    "lat": 39.7,
+    "lng": -105.08
   },
   {
     "id": "gabriel",
@@ -195,7 +215,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": 36,
-    "riskReasoning": "Gabriel entered as a bombshell and is now coupled with Jen, but both of them arrived as bombshells which means their pairing is among the newer and less established in the villa."
+    "riskReasoning": "Gabriel entered as a bombshell and is now coupled with Jen, but both of them arrived as bombshells which means their pairing is among the newer and less established in the villa.",
+    "lat": -22.91,
+    "lng": -43.17
   },
   {
     "id": "kayda",
@@ -213,7 +235,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": 37,
-    "riskReasoning": "Kayda entered as an early bombshell and is coupled with Zach, but bombshell pairings can face extra scrutiny at recouplings as original islanders reassess their options."
+    "riskReasoning": "Kayda entered as an early bombshell and is coupled with Zach, but bombshell pairings can face extra scrutiny at recouplings as original islanders reassess their options.",
+    "lat": 42.99,
+    "lng": -71.46
   },
   {
     "id": "corbin",
@@ -231,7 +255,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": 34,
-    "riskReasoning": "Corbin came in as a bombshell on day five and coupled with Melanie, and while they seem connected, his shorter time in the villa leaves a little uncertainty around their bond."
+    "riskReasoning": "Corbin came in as a bombshell on day five and coupled with Melanie, and while they seem connected, his shorter time in the villa leaves a little uncertainty around their bond.",
+    "lat": 25.76,
+    "lng": -80.19
   },
   {
     "id": "caleb",
@@ -249,7 +275,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": 45,
-    "riskReasoning": "Caleb is the most recent male bombshell, entering on day seven and coupling with Kenzie, meaning his connection is the newest and least proven among the coupled islanders."
+    "riskReasoning": "Caleb is the most recent male bombshell, entering on day seven and coupling with Kenzie, meaning his connection is the newest and least proven among the coupled islanders.",
+    "lat": 35.71,
+    "lng": -79.81
   },
   {
     "id": "jen",
@@ -267,7 +295,9 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": 43,
-    "riskReasoning": "Jen arrived on day seven as a bombshell and is paired with Gabriel, and as one of the freshest arrivals she has had the least time to build a secure and tested connection."
+    "riskReasoning": "Jen arrived on day seven as a bombshell and is paired with Gabriel, and as one of the freshest arrivals she has had the least time to build a secure and tested connection.",
+    "lat": 28.08,
+    "lng": -80.61
   },
   {
     "id": "sol",
@@ -285,6 +315,8 @@
     "instagram": null,
     "tiktok": null,
     "riskScore": 42,
-    "riskReasoning": "Sol entered on day seven and is coupled with Sincere, but with so little time to establish their bond, a competitive recoupling environment puts their pairing at noticeable risk."
+    "riskReasoning": "Sol entered on day seven and is coupled with Sincere, but with so little time to establish their bond, a competitive recoupling environment puts their pairing at noticeable risk.",
+    "lat": 33.79,
+    "lng": -117.85
   }
 ]
