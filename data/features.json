@@ -27,7 +27,7 @@
     "description": "Claude returns structured JSON with a dumping probability and full reasoning chain for every islander.",
     "skill": "Structured Outputs + JSON Mode",
     "skillCategory": "structured",
-    "unlocked": false,
+    "unlocked": true,
     "unlockDate": "June 14",
     "week": 2,
     "route": "/islanders"

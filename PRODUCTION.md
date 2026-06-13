@@ -43,12 +43,14 @@ This ties it all together. Each build step from **STEPS.md** gets mapped here to
 | 22 | Step + production tracking | "I am filming every step of this build. Even this one." | Short | idea |
 
 | 23 | Added real key, woke the Oracle | "I added one line and the AI woke up." (offline, then live) | Short | idea |
+| 24 | Risk Scorer, structured outputs | "I made the AI stop talking and start scoring." (meters animate in) | Short + Long | idea |
+| 25 | Fixed cast data, research + verify | "My AI site had fake data. Here is how I caught it." (KC missing, Sean already gone) | Short + Long | idea |
+| 26 | Avatars + the legal call + fallback | "Why I can't use the official photos, and the free trick I used instead." (then: the 'free' API that wasn't) | Short + Long | idea |
 
 ## Up next (build, then film)
 | Step | What | Content angle | Format | Status |
 |------|------|---------------|--------|--------|
-| 24 | Risk Scorer, structured outputs | "I made the AI stop talking and start scoring." | Short + Long | idea |
-| 25 | Add a Claude skill | "I taught my AI a new skill. Here is what changed." | Short | idea |
+| 27 | Add a Claude skill | "I taught my AI a new skill. Here is what changed." | Short | idea |
 
 ---
 

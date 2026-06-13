@@ -80,10 +80,19 @@ Why: Document as you go. Each step becomes a video and you never lose the why.
 **23. Added the real Anthropic API key to .env.local and woke the Oracle.**
 Why: With a real key the AI answers for real. Tested it live and it pulled from the actual cast data in the narrator voice. The before and after, offline to alive, is the proof it works.
 
+**24. Built the Risk Scorer with structured outputs and unlocked the feature.**
+Why: A normal AI reply is a paragraph. Useless for a chart. So I handed Claude a strict form (a tool with a schema) and forced it to fill it out: an id, a 0 to 100 risk number, and one reason per islander. The answer comes back as clean data, gets saved into islanders.json, and fills the leaderboard and risk meters. Words became numbers. That is structured output.
+
+**25. Fixed the cast data with real research and verification.**
+Why: The seed data was a Day 1 placeholder. People were missing (KC, Bryce, the bombshells), Sean and Beatriz were dumped but still listed. I researched the real Season 8 roster, rebuilt islanders.json to all 16 with accurate ages, hometowns, entry days, couples, and statuses, then had a human verify it. A prediction site is only as good as its data.
+
+**26. Added islander avatars with a graceful fallback.**
+Why: Wanted faces on the cards. Official press photos are not legal to republish on a fan site, so I built an Avatar that hotlinks each person's own public Instagram avatar through unavatar.io, and falls back to initials on a brand gradient when there is no handle or the image fails. Discovered unavatar now charges for Instagram, so the cards show clean initials for free. A good fallback means a paid or broken API never breaks your page.
+
 ---
 
 ## Up next (not done yet)
-- Build the Risk Scorer with structured outputs.
 - Add a new Claude skill and show what it unlocks.
+- Live Follower Tracker (web scraping + scheduled runs).
 
 _(These live here only as a reminder. They move into the log above once they are actually done.)_

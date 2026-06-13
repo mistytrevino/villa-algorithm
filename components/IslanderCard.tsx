@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { fadeUp } from "@/lib/motion";
 import { coupleState, type Islander } from "@/lib/types";
 import { RiskMeter } from "@/components/RiskMeter";
+import { Avatar } from "@/components/Avatar";
 
 const STATUS_LABEL: Record<string, { text: string; className: string }> = {
   coupled: { text: "Coupled Up", className: "bg-teal/15 text-teal" },
@@ -32,13 +33,16 @@ export function IslanderCard({
       }`}
     >
       <div className="flex items-start justify-between gap-2">
-        <div>
-          <h3 className="font-display text-2xl font-semibold text-cream">
-            {islander.name}
-          </h3>
-          <p className="font-body text-sm text-muted">
-            {islander.partner ? `Coupled with ${islander.partner}` : "No partner yet"}
-          </p>
+        <div className="flex items-center gap-3">
+          <Avatar name={islander.name} handle={islander.instagram} size={52} />
+          <div>
+            <h3 className="font-display text-2xl font-semibold text-cream">
+              {islander.name}
+            </h3>
+            <p className="font-body text-sm text-muted">
+              {islander.partner ? `Coupled with ${islander.partner}` : "No partner yet"}
+            </p>
+          </div>
         </div>
         <span
           className={`shrink-0 rounded-full px-2.5 py-1 font-body text-xs font-medium ${status.className}`}
