@@ -30,7 +30,10 @@ export default function IslandersPage() {
     setError(null);
     setScanning(true);
     try {
-      const res = await fetch("/api/risk-scorer", { method: "POST" });
+      const res = await fetch("/api/risk-scorer", {
+        method: "POST",
+        headers: { "X-Oracle-Token": process.env.NEXT_PUBLIC_ORACLE_TOKEN ?? "" },
+      });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "The scan failed.");
       setIslanders(data.islanders as Islander[]);

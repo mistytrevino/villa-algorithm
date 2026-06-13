@@ -50,10 +50,12 @@ This ties it all together. Each build step from **STEPS.md** gets mapped here to
 | 27 | Fab 5: five models in parallel | "I asked 5 AIs the same question. Watch them agree and disagree." (+ the 404 frontier model) | Short + Long | idea |
 | 28 | Season timeline on the home page | "My site now unlocks each episode as it airs." (Casa Amor still locked) | Short | idea |
 
+| 29 | Hardened the API against abuse | "My AI costs money per click. Here is how I stopped people draining it." (+ the security that looks real vs is real) | Short + Long | idea |
+
 ## Up next (build, then film)
 | Step | What | Content angle | Format | Status |
 |------|------|---------------|--------|--------|
-| 29 | Add a Claude skill | "I taught my AI a new skill. Here is what changed." | Short | idea |
+| 30 | Add a Claude skill | "I taught my AI a new skill. Here is what changed." | Short | idea |
 
 ---
 

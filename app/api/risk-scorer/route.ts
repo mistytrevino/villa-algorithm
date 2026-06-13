@@ -2,6 +2,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { promises as fs } from "fs";
 import path from "path";
 import type { Islander } from "@/lib/types";
+import { guardRequest } from "@/lib/apiGuard";
 
 // Risk Scorer. Teaches STRUCTURED OUTPUTS.
 // Instead of letting Claude reply in prose, we hand it a tool with a strict
@@ -58,7 +59,10 @@ const RISK_TOOL: Anthropic.Tool = {
 
 type Score = { id: string; riskScore: number; riskReasoning: string };
 
-export async function POST() {
+export async function POST(request: Request) {
+  const guard = await guardRequest(request, { requireToken: true });
+  if (!guard.ok) return guard.response;
+
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey || apiKey === "your_key_here") {
     return Response.json(

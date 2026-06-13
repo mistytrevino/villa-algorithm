@@ -95,6 +95,9 @@ Why: The same prompt goes to five different Claude models at once, so the only t
 **28. Added the season timeline to the home page.**
 Why: A visual of the whole season, episode one to the finale. Aired episodes are unlocked with a check, future ones stay locked, and key episodes like Casa Amor are flagged. It auto unlocks as real dates pass. Researched the real schedule and clearly marked which dates are confirmed versus estimated, because a prediction site should never fake certainty it does not have.
 
+**29. Hardened the AI API against abuse.**
+Why: A public API endpoint that spends money on every call needs guardrails. Added six layers across all three AI routes: a per IP rate limit (5 Oracle calls an hour), a 200 character input cap, graceful handling of Anthropic's own rate limit so the raw error never reaches the user, an origin check so only the real site can call the routes, a shared frontend token, and a 1kb body size cap. Honest caveat taught in the code itself: the origin header and the frontend token can both be seen or forged from a browser, so they are speed bumps. The real protection is the rate limit plus, in production, a firewall or bot protection. Never put a true secret in anything the browser can read.
+
 ---
 
 ## Up next (not done yet)

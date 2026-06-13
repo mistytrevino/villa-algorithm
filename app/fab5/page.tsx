@@ -47,7 +47,10 @@ export default function Fab5Page() {
     try {
       const res = await fetch("/api/fab5", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          "X-Oracle-Token": process.env.NEXT_PUBLIC_ORACLE_TOKEN ?? "",
+        },
         body: JSON.stringify({ question: trimmed }),
       });
       const data = await res.json();

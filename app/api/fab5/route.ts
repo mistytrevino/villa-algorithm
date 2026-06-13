@@ -1,5 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 import islanders from "@/data/islanders.json";
+import { guardRequest } from "@/lib/apiGuard";
 
 // Fab 5. Teaches MULTI-MODEL + PARALLEL CALLS.
 // One question goes to five different Claude models at the same time.
@@ -37,6 +38,9 @@ type Fab5Result = {
 };
 
 export async function POST(request: Request) {
+  const guard = await guardRequest(request, { requireToken: true });
+  if (!guard.ok) return guard.response;
+
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey || apiKey === "your_key_here") {
     return Response.json(
@@ -47,7 +51,7 @@ export async function POST(request: Request) {
 
   let body: { question?: string };
   try {
-    body = await request.json();
+    body = JSON.parse(guard.bodyText);
   } catch {
     return Response.json({ error: "Invalid request body." }, { status: 400 });
   }

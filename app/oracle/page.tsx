@@ -42,7 +42,10 @@ export default function OraclePage() {
     try {
       const res = await fetch("/api/oracle", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          "X-Oracle-Token": process.env.NEXT_PUBLIC_ORACLE_TOKEN ?? "",
+        },
         body: JSON.stringify({
           messages: next.map((m) => ({ role: m.role, content: m.content })),
         }),
