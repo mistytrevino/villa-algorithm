@@ -98,10 +98,13 @@ Why: A visual of the whole season, episode one to the finale. Aired episodes are
 **29. Hardened the AI API against abuse.**
 Why: A public API endpoint that spends money on every call needs guardrails. Added six layers across all three AI routes: a per IP rate limit (5 Oracle calls an hour), a 200 character input cap, graceful handling of Anthropic's own rate limit so the raw error never reaches the user, an origin check so only the real site can call the routes, a shared frontend token, and a 1kb body size cap. Honest caveat taught in the code itself: the origin header and the frontend token can both be seen or forged from a browser, so they are speed bumps. The real protection is the rate limit plus, in production, a firewall or bot protection. Never put a true secret in anything the browser can read.
 
+**30. Built the Anomaly Engine: AI pattern detection over the cast.**
+Why: A person watches one couple at a time. An AI reads the whole cast at once and finds patterns no single viewer would catch. Claude scans every field, age, hometown, entry day, risk score, and returns four to six structured findings, each citing the exact data behind it so nothing is made up. First scan surfaced real ones: a Georgia hometown cluster, the day-7 bombshells holding the three highest risk scores, and both dumped islanders being original day-one cast. This is the same structured-output trick as the Risk Scorer pointed at a harder job: finding signal in noise.
+
 ---
 
 ## Up next (not done yet)
-- Add a new Claude skill and show what it unlocks.
 - Live Follower Tracker (web scraping + scheduled runs).
+- MCP live data feed, or Beat the Oracle (database + voting).
 
 _(These live here only as a reminder. They move into the log above once they are actually done.)_

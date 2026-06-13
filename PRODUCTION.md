@@ -52,10 +52,12 @@ This ties it all together. Each build step from **STEPS.md** gets mapped here to
 
 | 29 | Hardened the API against abuse | "My AI costs money per click. Here is how I stopped people draining it." (+ the security that looks real vs is real) | Short + Long | idea |
 
+| 30 | Anomaly Engine: AI pattern detection | "I asked AI to find what I missed in the cast. It found 6 things." (Georgia cluster, day-7 risk) | Short + Long | idea |
+
 ## Up next (build, then film)
 | Step | What | Content angle | Format | Status |
 |------|------|---------------|--------|--------|
-| 30 | Add a Claude skill | "I taught my AI a new skill. Here is what changed." | Short | idea |
+| 31 | Add a Claude skill | "I taught my AI a new skill. Here is what changed." | Short | idea |
 
 ---
 

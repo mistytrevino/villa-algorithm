@@ -71,10 +71,10 @@
     "description": "What AI found that you missed. Cross-season pattern detection, zodiac compatibility, edit signature analysis.",
     "skill": "Pattern Detection + Cross-Season Data",
     "skillCategory": "analysis",
-    "unlocked": false,
+    "unlocked": true,
     "unlockDate": "June 22",
     "week": 6,
-    "route": "/oracle"
+    "route": "/anomaly"
   },
   {
     "id": "beat",
