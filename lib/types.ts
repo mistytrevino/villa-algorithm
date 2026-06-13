@@ -1,0 +1,76 @@
+// Shared domain types for The Villa Algorithm.
+// Data always comes from /data/ JSON files, never hardcoded in components.
+
+export type IslanderStatus = "participating" | "dumped";
+export type EntryType = "original" | "bombshell";
+
+export interface Islander {
+  id: string;
+  name: string;
+  age: number | null;
+  hometown: string | null;
+  occupation: string | null;
+  status: IslanderStatus;
+  partner: string | null;
+  entryDay: number | null;
+  entryType: EntryType;
+  followersStart: number | null;
+  followersCurrent: number | null;
+  zodiac: string | null;
+  instagram: string | null;
+  tiktok: string | null;
+  riskScore: number | null;
+  riskReasoning: string | null;
+}
+
+// UI-facing couple state, derived from status + partner.
+export type CoupleState = "coupled" | "single" | "dumped";
+
+export type SkillCategory =
+  | "api"
+  | "structured"
+  | "scraping"
+  | "multimodel"
+  | "mcp"
+  | "analysis"
+  | "database"
+  | "education";
+
+export interface Feature {
+  id: string;
+  title: string;
+  description: string;
+  skill: string;
+  skillCategory: SkillCategory;
+  unlocked: boolean;
+  unlockDate: string;
+  week: number;
+  route: string;
+}
+
+export interface Episode {
+  episode: number;
+  date: string;
+  title: string;
+  events: string[];
+  recouplings: string[];
+  dumpings: string[];
+  bombshells: string[];
+}
+
+export type PredictionOutcome = "pending" | "correct" | "wrong";
+
+export interface Prediction {
+  id: string;
+  episode: number;
+  claim: string;
+  outcome: PredictionOutcome;
+  model?: string;
+  timestamp?: string;
+}
+
+// Derive the UI couple state from an islander record.
+export function coupleState(islander: Islander): CoupleState {
+  if (islander.status === "dumped") return "dumped";
+  return islander.partner ? "coupled" : "single";
+}

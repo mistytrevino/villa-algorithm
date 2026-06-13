@@ -1,0 +1,101 @@
+[
+  {
+    "id": "oracle",
+    "title": "The Oracle",
+    "description": "Ask Claude anything about Season 8 in Iain Stirling narrator voice.",
+    "skill": "Claude API + Prompt Engineering",
+    "skillCategory": "api",
+    "unlocked": true,
+    "unlockDate": "June 12",
+    "week": 1,
+    "route": "/oracle"
+  },
+  {
+    "id": "islanders",
+    "title": "Islander Profiles",
+    "description": "Full cast with couple status and episode history.",
+    "skill": "Claude API + Prompt Engineering",
+    "skillCategory": "api",
+    "unlocked": true,
+    "unlockDate": "June 12",
+    "week": 1,
+    "route": "/islanders"
+  },
+  {
+    "id": "risk-scorer",
+    "title": "Risk Scorer",
+    "description": "Claude returns structured JSON with a dumping probability and full reasoning chain for every islander.",
+    "skill": "Structured Outputs + JSON Mode",
+    "skillCategory": "structured",
+    "unlocked": false,
+    "unlockDate": "June 14",
+    "week": 2,
+    "route": "/islanders"
+  },
+  {
+    "id": "follower-tracker",
+    "title": "Live Follower Tracker",
+    "description": "Automated nightly data collection. Follower velocity predicts fan favorites before the public votes.",
+    "skill": "Web Scraping + Scheduled Runs",
+    "skillCategory": "scraping",
+    "unlocked": false,
+    "unlockDate": "June 16",
+    "week": 3,
+    "route": "/islanders"
+  },
+  {
+    "id": "fab5",
+    "title": "Fab 5",
+    "description": "One question, five Claude models answering simultaneously. Watch five levels of AI reasoning disagree.",
+    "skill": "Multi-Model API + Parallel Calls",
+    "skillCategory": "multimodel",
+    "unlocked": false,
+    "unlockDate": "June 18",
+    "week": 4,
+    "route": "/fab5"
+  },
+  {
+    "id": "mcp",
+    "title": "MCP Live Data Feed",
+    "description": "Model Context Protocol wired to live sources. New bombshells auto-researched the moment they arrive.",
+    "skill": "MCP Servers + Real-Time Data",
+    "skillCategory": "mcp",
+    "unlocked": false,
+    "unlockDate": "June 20",
+    "week": 5,
+    "route": "/islanders"
+  },
+  {
+    "id": "anomaly",
+    "title": "Anomaly Engine",
+    "description": "What AI found that you missed. Cross-season pattern detection, zodiac compatibility, edit signature analysis.",
+    "skill": "Pattern Detection + Cross-Season Data",
+    "skillCategory": "analysis",
+    "unlocked": false,
+    "unlockDate": "June 22",
+    "week": 6,
+    "route": "/oracle"
+  },
+  {
+    "id": "beat",
+    "title": "Beat the Oracle",
+    "description": "Submit your elimination picks before each episode. Live leaderboard: fan vs machine.",
+    "skill": "Supabase + Real-Time Voting",
+    "skillCategory": "database",
+    "unlocked": false,
+    "unlockDate": "June 24",
+    "week": 7,
+    "route": "/beat"
+  },
+  {
+    "id": "thebuild",
+    "title": "The Build",
+    "description": "Every Claude Skill open-sourced. Every model decision explained. The consulting portfolio hiding inside a fan site.",
+    "skill": "Full Skill Documentation",
+    "skillCategory": "education",
+    "unlocked": false,
+    "unlockDate": "June 26",
+    "week": 8,
+    "route": "/build"
+  }
+]
