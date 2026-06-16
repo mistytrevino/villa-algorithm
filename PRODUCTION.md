@@ -67,8 +67,12 @@ This ties it all together. Each build step from **STEPS.md** gets mapped here to
 | Step | What | Content angle | Format | Status |
 |------|------|---------------|--------|--------|
 | 34 | Past-season comparison (Phase 3) | "I compared this cast to last season. The data surprised me." | Short + Long | idea |
-| 35 | Feature-request space for visitors | "You can now request features on the site itself." | Short | idea |
-| 36 | Vercel deploy (go live) | "After all this, I finally put it on the internet." | Short + Long | idea |
+| 35 | Vercel deploy (go live) | "After all this, I finally put it on the internet." | Short + Long | idea |
+
+## Done, awaiting film
+| Step | What | Content angle | Format | Status |
+|------|------|---------------|--------|--------|
+| 34 | Feature-request space for visitors | "You can now request features on the site itself. The audience steers the build." | Short | idea |
 
 ---
 

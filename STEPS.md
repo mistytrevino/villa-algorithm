@@ -110,11 +110,13 @@ Why: The web shows who is tied to who. The map shows where they come from, and t
 **33. Built Beat the Oracle with a real database (Supabase).**
 Why: This is the first feature JSON files could not do. Fans submit a pick for who gets dumped next, it saves to a shared Supabase database, and everyone sees the same live tally against the Oracle's own pick. Set up the database, a picks table, and a unique rule so each browser gets one changeable pick. Tested the full loop end to end, including a voter changing their pick without doubling the count. The big lesson: the moment many strangers need to save and share data, you graduate from files to a database. All database access goes through guarded server routes with the secret key, never the browser.
 
+**34. Built the feature-request space for visitors.**
+Why: Let the audience steer the build. A simple board where anyone can submit an idea, stored in the same Supabase database, with the link in the footer instead of the crowded top nav. Reused everything from the voting feature: the database, the guarded route, an anonymous browser id. Added a 280 character cap and a light five-per-hour submit limit so a public text box cannot be spammed. This closes the loop on an idea the user asked for a few sessions back.
+
 ---
 
 ## Up next (not done yet)
 - Connections Phase 3: past-season comparison toggle (needs prior-season data).
-- A feature-request space for visitors (now unblocked, the database exists).
 - The Vercel deploy (set all env vars including Supabase), and The Build capstone page.
 - Responsive nav (7 tabs now, will crowd on mobile).
 

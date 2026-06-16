@@ -14,3 +14,12 @@ create table if not exists picks (
 -- Level Security, so no policies are required for this app. RLS stays on by
 -- default, which means the anon/public key cannot read or write directly.
 alter table picks enable row level security;
+
+-- Feature requests submitted by visitors.
+create table if not exists feature_requests (
+  id         uuid primary key default gen_random_uuid(),
+  created_at timestamptz not null default now(),
+  body       text not null,
+  voter      text                                  -- anonymous per-browser id
+);
+alter table feature_requests enable row level security;
