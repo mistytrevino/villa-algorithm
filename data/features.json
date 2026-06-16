@@ -82,7 +82,7 @@
     "description": "Submit your elimination picks before each episode. Live leaderboard: fan vs machine.",
     "skill": "Supabase + Real-Time Voting",
     "skillCategory": "database",
-    "unlocked": false,
+    "unlocked": true,
     "unlockDate": "June 24",
     "week": 7,
     "route": "/beat"

@@ -13,6 +13,7 @@ const PRIMARY = [
   { label: "Fab 5", href: "/fab5" },
   { label: "Anomaly", href: "/anomaly" },
   { label: "Connections", href: "/connections" },
+  { label: "Beat", href: "/beat" },
 ];
 
 export function SiteNav() {

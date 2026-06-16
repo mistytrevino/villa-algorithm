@@ -61,11 +61,14 @@ This ties it all together. Each build step from **STEPS.md** gets mapped here to
 |------|------|---------------|--------|--------|
 | 32 | Hometown map (Connections Phase 2) | "Now you can see where every islander is from on a real map." (the clusters) | Short | recorded? |
 
+| 33 | Beat the Oracle: real database + voting | "JSON files could not do this. So I added a real database. Fans vs the machine, live." | Short + Long | idea |
+
 ## Up next (build, then film)
 | Step | What | Content angle | Format | Status |
 |------|------|---------------|--------|--------|
-| 33 | Past-season comparison (Phase 3) | "I compared this cast to last season. The data surprised me." | Short + Long | idea |
-| 34 | Feature-request space for visitors | "You can now request features on the site itself." | Short | idea |
+| 34 | Past-season comparison (Phase 3) | "I compared this cast to last season. The data surprised me." | Short + Long | idea |
+| 35 | Feature-request space for visitors | "You can now request features on the site itself." | Short | idea |
+| 36 | Vercel deploy (go live) | "After all this, I finally put it on the internet." | Short + Long | idea |
 
 ---
 

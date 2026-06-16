@@ -107,11 +107,15 @@ Why: A list tells you who is coupled. A web lets you see the whole villa at once
 **32. Connections Phase 2: a real map of where everyone is from.**
 Why: The web shows who is tied to who. The map shows where they come from, and the hometown clusters pop instantly. Added real coordinates to every islander, then drew an actual US map with d3-geo and the us-atlas data, no heavy map library. Each islander is a dot in their hometown, hover for the name. The two international islanders, Zach in the UK and Gabriel in Brazil, get an abroad callout since a US projection cannot place them. Chose d3-geo over react-simple-maps for clean React 19 support.
 
+**33. Built Beat the Oracle with a real database (Supabase).**
+Why: This is the first feature JSON files could not do. Fans submit a pick for who gets dumped next, it saves to a shared Supabase database, and everyone sees the same live tally against the Oracle's own pick. Set up the database, a picks table, and a unique rule so each browser gets one changeable pick. Tested the full loop end to end, including a voter changing their pick without doubling the count. The big lesson: the moment many strangers need to save and share data, you graduate from files to a database. All database access goes through guarded server routes with the secret key, never the browser.
+
 ---
 
 ## Up next (not done yet)
 - Connections Phase 3: past-season comparison toggle (needs prior-season data).
-- A feature-request space for visitors (likely needs the database step).
-- Beat the Oracle (database + voting), and the Vercel deploy.
+- A feature-request space for visitors (now unblocked, the database exists).
+- The Vercel deploy (set all env vars including Supabase), and The Build capstone page.
+- Responsive nav (7 tabs now, will crowd on mobile).
 
 _(These live here only as a reminder. They move into the log above once they are actually done.)_
